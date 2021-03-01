@@ -275,6 +275,12 @@
     <parameters xmi:id="_ffcTgHoNEeuqnYYV4g2Mlw" name="ref">
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     </parameters>
+    <parameters xmi:id="_oxQ9kHqkEeu8xONudWWWrw" name="id">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
+    <parameters xmi:id="_rcmicHqkEeu8xONudWWWrw" name="eventtype">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </parameters>
     <lhs xmi:id="_wHLWkHPSEeuY2qotRfvPgQ" name="Lhs">
       <nodes xmi:id="_-imeUHPSEeuY2qotRfvPgQ" incoming="_Wr-SEHPTEeuY2qotRfvPgQ">
         <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usEvent"/>
@@ -283,6 +289,12 @@
         </attributes>
         <attributes xmi:id="_m9QI4HoNEeuqnYYV4g2Mlw" value="ref">
           <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usActivity/ref"/>
+        </attributes>
+        <attributes xmi:id="_Kb33AHqlEeu8xONudWWWrw" value="id">
+          <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usActivity/id"/>
+        </attributes>
+        <attributes xmi:id="_MVAi4HqlEeu8xONudWWWrw" value="eventtype">
+          <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usEvent/type"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_NlJQcHPTEeuY2qotRfvPgQ">
@@ -317,6 +329,12 @@
               <attributes xmi:id="_m9QI4noNEeuqnYYV4g2Mlw" value="ref">
                 <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usActivity/ref"/>
               </attributes>
+              <attributes xmi:id="_Kb66UXqlEeu8xONudWWWrw" value="id">
+                <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usActivity/id"/>
+              </attributes>
+              <attributes xmi:id="_MVAi4nqlEeu8xONudWWWrw" value="eventtype">
+                <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usEvent/type"/>
+              </attributes>
             </nodes>
             <nodes xmi:id="_8CVU83n8Eeu-JtP6L3MWDQ" outgoing="_8CVU9Xn8Eeu-JtP6L3MWDQ">
               <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//Us"/>
@@ -329,8 +347,8 @@
             </nodes>
             <nodes xmi:id="_2QFpgHn8Eeu-JtP6L3MWDQ" incoming="_3TxUEHn8Eeu-JtP6L3MWDQ">
               <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Event"/>
-              <attributes xmi:id="_9xXpoHn8Eeu-JtP6L3MWDQ" value="eventname">
-                <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Object/name"/>
+              <attributes xmi:id="_nWkrwHqlEeu8xONudWWWrw" value="id">
+                <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Object/id"/>
               </attributes>
             </nodes>
             <edges xmi:id="_8CVU9Xn8Eeu-JtP6L3MWDQ" source="_8CVU83n8Eeu-JtP6L3MWDQ" target="_8CVU8Hn8Eeu-JtP6L3MWDQ">
@@ -355,6 +373,12 @@
         <attributes xmi:id="_m9QI4XoNEeuqnYYV4g2Mlw" value="ref">
           <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usActivity/ref"/>
         </attributes>
+        <attributes xmi:id="_Kb66UHqlEeu8xONudWWWrw" value="id">
+          <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usActivity/id"/>
+        </attributes>
+        <attributes xmi:id="_MVAi4XqlEeu8xONudWWWrw" value="eventtype">
+          <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usEvent/type"/>
+        </attributes>
       </nodes>
       <nodes xmi:id="_AirfsHPTEeuY2qotRfvPgQ" incoming="_X4UwcHPTEeuY2qotRfvPgQ">
         <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Event"/>
@@ -363,6 +387,12 @@
         </attributes>
         <attributes xmi:id="_mLq68HoNEeuqnYYV4g2Mlw" value="ref">
           <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Activity/order"/>
+        </attributes>
+        <attributes xmi:id="_JU8rMHqlEeu8xONudWWWrw" value="id">
+          <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Object/id"/>
+        </attributes>
+        <attributes xmi:id="_LtnLsHqlEeu8xONudWWWrw" value="(EventType)eventtype">
+          <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Event/type"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_NlJQcXPTEeuY2qotRfvPgQ" outgoing="_X4UwcHPTEeuY2qotRfvPgQ">
@@ -527,11 +557,17 @@
         <attributes xmi:id="_akggAHoMEeuqnYYV4g2Mlw" value="ref">
           <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Activity/order"/>
         </attributes>
+        <attributes xmi:id="_QFtUsHqiEeu8xONudWWWrw" value="from">
+          <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Object/id"/>
+        </attributes>
       </nodes>
       <nodes xmi:id="_OyjfgHRnEeuxk8PMaUrsfQ" incoming="_Lq9nAHRoEeuxk8PMaUrsfQ">
         <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Activity"/>
         <attributes xmi:id="_ZYVn0HoMEeuqnYYV4g2Mlw" value="ref1">
           <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Activity/order"/>
+        </attributes>
+        <attributes xmi:id="_RxXlQHqiEeu8xONudWWWrw" value="to">
+          <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Object/id"/>
         </attributes>
       </nodes>
       <edges xmi:id="_Lq9nAHRoEeuxk8PMaUrsfQ" source="_NkGIUHRnEeuxk8PMaUrsfQ" target="_OyjfgHRnEeuxk8PMaUrsfQ">
@@ -548,11 +584,17 @@
               <attributes xmi:id="_akhHEXoMEeuqnYYV4g2Mlw" value="ref">
                 <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Activity/order"/>
               </attributes>
+              <attributes xmi:id="_QFt7wXqiEeu8xONudWWWrw" value="from">
+                <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Object/id"/>
+              </attributes>
             </nodes>
             <nodes xmi:id="_TXUOsHRoEeuxk8PMaUrsfQ" incoming="_TXUOsnRoEeuxk8PMaUrsfQ _Nj0mEHRoEeuxk8PMaUrsfQ">
               <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Activity"/>
               <attributes xmi:id="_ZYYEEXoMEeuqnYYV4g2Mlw" value="ref">
                 <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Activity/order"/>
+              </attributes>
+              <attributes xmi:id="_RxXlQnqiEeu8xONudWWWrw" value="to">
+                <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Object/id"/>
               </attributes>
             </nodes>
             <nodes xmi:id="_TgU2MHRnEeuxk8PMaUrsfQ" incoming="_NEVNsHRoEeuxk8PMaUrsfQ" outgoing="_Nj0mEHRoEeuxk8PMaUrsfQ">
@@ -586,17 +628,26 @@
         <attributes xmi:id="_akhHEHoMEeuqnYYV4g2Mlw" value="ref">
           <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Activity/order"/>
         </attributes>
+        <attributes xmi:id="_QFt7wHqiEeu8xONudWWWrw" value="from">
+          <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Object/id"/>
+        </attributes>
       </nodes>
       <nodes xmi:id="_OykGkHRnEeuxk8PMaUrsfQ" incoming="_Lq9nAXRoEeuxk8PMaUrsfQ _jb0nUHn-Eeu-JtP6L3MWDQ">
         <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Activity"/>
         <attributes xmi:id="_ZYYEEHoMEeuqnYYV4g2Mlw" value="ref">
           <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Activity/order"/>
         </attributes>
+        <attributes xmi:id="_RxXlQXqiEeu8xONudWWWrw" value="to">
+          <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Object/id"/>
+        </attributes>
       </nodes>
       <nodes xmi:id="_TWGjMHRnEeuxk8PMaUrsfQ" incoming="_6oyfcHRnEeuxk8PMaUrsfQ _fwMDEHn-Eeu-JtP6L3MWDQ" outgoing="_jb0nUHn-Eeu-JtP6L3MWDQ">
         <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//MessageFlow"/>
-        <attributes xmi:id="_hQehcHRpEeuxk8PMaUrsfQ" value="'message'">
+        <attributes xmi:id="_hQehcHRpEeuxk8PMaUrsfQ" value="from.toString()+' to '+to.toString()">
           <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Object/name"/>
+        </attributes>
+        <attributes xmi:id="_T-s_gHqiEeu8xONudWWWrw" value="to">
+          <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Object/id"/>
         </attributes>
       </nodes>
       <edges xmi:id="_Lq9nAXRoEeuxk8PMaUrsfQ" source="_NkGIUXRnEeuxk8PMaUrsfQ" target="_OykGkHRnEeuxk8PMaUrsfQ">
@@ -618,15 +669,14 @@
     <mappings xmi:id="_OykGkXRnEeuxk8PMaUrsfQ" origin="_OyjfgHRnEeuxk8PMaUrsfQ" image="_OykGkHRnEeuxk8PMaUrsfQ"/>
   </units>
   <units xsi:type="henshin:Rule" xmi:id="_IkSiQHRuEeuxk8PMaUrsfQ" name="CreateArtifact">
-    <parameters xmi:id="__C2y0HRuEeuxk8PMaUrsfQ" name="name">
-      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <parameters xmi:id="_mtLCEHqoEeu8xONudWWWrw" name="id">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
     </parameters>
-    <parameters xmi:id="_WQk50HRzEeuxk8PMaUrsfQ" name="type"/>
     <lhs xmi:id="_IkYo4HRuEeuxk8PMaUrsfQ" name="Lhs">
       <nodes xmi:id="_NLpu8HRuEeuxk8PMaUrsfQ" incoming="_aP8rsHRuEeuxk8PMaUrsfQ">
         <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usArtifact"/>
-        <attributes xmi:id="_HSoQoHRvEeuxk8PMaUrsfQ" value="name">
-          <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usArtifact/name"/>
+        <attributes xmi:id="_qu2u0HqoEeu8xONudWWWrw" value="id">
+          <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usArtifact/id"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_PMQ70HRuEeuxk8PMaUrsfQ" outgoing="_aP8rsHRuEeuxk8PMaUrsfQ">
@@ -642,14 +692,14 @@
     <rhs xmi:id="_IkYo4XRuEeuxk8PMaUrsfQ" name="Rhs">
       <nodes xmi:id="_MNrq0HRuEeuxk8PMaUrsfQ" incoming="_YLguwHRuEeuxk8PMaUrsfQ">
         <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Artifacts"/>
-        <attributes xmi:id="_GM6lwHRvEeuxk8PMaUrsfQ" value="name">
-          <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Object/name"/>
+        <attributes xmi:id="_sUf28HqoEeu8xONudWWWrw" value="id">
+          <type href="../../ma.ensias.bpmn/model/bpmn.ecore#//Object/id"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_NLqWAHRuEeuxk8PMaUrsfQ" incoming="_aP8rsXRuEeuxk8PMaUrsfQ">
         <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usArtifact"/>
-        <attributes xmi:id="_HSoQoXRvEeuxk8PMaUrsfQ" value="name">
-          <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usArtifact/name"/>
+        <attributes xmi:id="_qu4kAHqoEeu8xONudWWWrw" value="id">
+          <type href="../../org.xtext.example.userstory/model/generated/UserStory.ecore#//usArtifact/id"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_PMQ70XRuEeuxk8PMaUrsfQ" outgoing="_aP8rsXRuEeuxk8PMaUrsfQ">
@@ -676,5 +726,5 @@
   <units xsi:type="henshin:LoopUnit" xmi:id="_2_QEkHR1Eeuxk8PMaUrsfQ" name="MessageFlowLoop" subUnit="_0gW-EHRmEeuxk8PMaUrsfQ"/>
   <units xsi:type="henshin:LoopUnit" xmi:id="_73atYHR1Eeuxk8PMaUrsfQ" name="ArtifactLoop" subUnit="_IkSiQHRuEeuxk8PMaUrsfQ"/>
   <units xsi:type="henshin:SequentialUnit" xmi:id="_IyFNAHR2Eeuxk8PMaUrsfQ" name="Final" subUnits="_BxhUYHOyEeuY2qotRfvPgQ _aJ1YcHR1Eeuxk8PMaUrsfQ _i6kOQHR1Eeuxk8PMaUrsfQ _xMy9wHR1Eeuxk8PMaUrsfQ _2_QEkHR1Eeuxk8PMaUrsfQ"/>
-  <units xsi:type="henshin:SequentialUnit" xmi:id="_V-c2UHTnEeu4YtknOXmv0w" name="start" subUnits="_BxhUYHOyEeuY2qotRfvPgQ _aJ1YcHR1Eeuxk8PMaUrsfQ"/>
+  <units xsi:type="henshin:SequentialUnit" xmi:id="_V-c2UHTnEeu4YtknOXmv0w" name="start" subUnits="_BxhUYHOyEeuY2qotRfvPgQ _aJ1YcHR1Eeuxk8PMaUrsfQ _i6kOQHR1Eeuxk8PMaUrsfQ _uPk-sHR1Eeuxk8PMaUrsfQ _73atYHR1Eeuxk8PMaUrsfQ"/>
 </henshin:Module>
